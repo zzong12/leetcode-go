@@ -1,15 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
-func Test_firstUniqChar() {
-	s := "abaccdeff"
-	r := findRepeatNumber(s)
-	fmt.Sprintln(r)
-}
-
 func firstUniqChar(s string) byte {
 	dict := [26]int{}
 	bs := []byte(s)

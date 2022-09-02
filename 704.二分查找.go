@@ -7,7 +7,7 @@
 // @lc code=start
 
 func search(nums []int, target int) int {
-	for l, r := 0, len(nums)-1; l <= r {
+	for l, r := 0, len(nums)-1; l <= r; {
 		mid := (r + l) >> 1
 		if nums[mid] == target {
 			return mid
@@ -21,4 +21,3 @@ func search(nums []int, target int) int {
 }
 
 // @lc code=end
-

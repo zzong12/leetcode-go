@@ -8,5 +8,6 @@
 func containsDuplicate(nums []int) bool {
 
 }
+
 // @lc code=end
 

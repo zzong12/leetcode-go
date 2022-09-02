@@ -3,7 +3,6 @@
  *
  * [206] 反转链表
  */
-package main
 
 type ListNode struct {
 	Val  int

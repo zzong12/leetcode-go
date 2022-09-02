@@ -3,7 +3,6 @@
  *
  * [232] 用栈实现队列
  */
-// package main
 
 // @lc code=start
 type MyQueue struct {

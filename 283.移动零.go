@@ -3,13 +3,12 @@
  *
  * [283] 移动零
  */
-
 // @lc code=start
 
 func moveZeroes(nums []int) {
 	for i, j := 0, 0; j < len(nums); {
 		if nums[j] != 0 {
-			nums[i], nums[j] = nums[j], nums[i]w
+			nums[i], nums[j] = nums[j], nums[i]
 			i++
 		}
 		j++

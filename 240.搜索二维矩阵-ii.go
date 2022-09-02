@@ -4,8 +4,6 @@
  * [240] 搜索二维矩阵 II
  */
 
-// package main
-
 // import "fmt"
 
 // func main() {

@@ -3,7 +3,6 @@
  *
  * [102] 二叉树的层序遍历
  */
-// package main
 
 // type TreeNode struct {
 // 	Val   int

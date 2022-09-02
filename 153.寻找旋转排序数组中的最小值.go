@@ -7,6 +7,7 @@
 // @lc code=start
 func findMin(nums []int) int {
 
+	return 0
 }
-// @lc code=end
 
+// @lc code=end

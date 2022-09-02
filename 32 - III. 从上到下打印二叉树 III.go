@@ -1,9 +1,5 @@
 package main
 
-func Test_zigzagLevelOrder() {
-
-}
-
 func zigzagLevelOrder(root *TreeNode) [][]int {
 	if root == nil {
 		return [][]int{}

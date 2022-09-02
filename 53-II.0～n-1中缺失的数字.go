@@ -1,9 +1,5 @@
 package main
 
-func Test_missingNumber() {
-
-}
-
 func missingNumber(nums []int) int {
 	l, r := 0, len(nums)
 	for l < r {

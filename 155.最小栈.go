@@ -3,7 +3,6 @@
  *
  * [155] 最小栈
  */
-// package main
 
 // @lc code=start
 type MinStack struct {

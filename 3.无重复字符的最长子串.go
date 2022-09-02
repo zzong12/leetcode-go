@@ -4,32 +4,32 @@
  * [3] 无重复字符的最长子串
  */
 
+package main
+
 // @lc code=start
 
 func lengthOfLongestSubstring(s string) int {
+	if len(s) < 2 {
+		return len(s)
+	}
 
-	bs := []byte(s)
-	m := make(map[byte]int)
-	l, max, size := 0, 0, len(bs)
+	dict := make([]int, 128)
+	for i := 0; i < 128; i++ {
+		dict[i] = -1
+	}
 
-	for i := 0; i < size; i++ {
-		v := bs[i]
-		if j, ok := m[v]; ok {
-			if i-l > max {
-				max = i - l
-			}
-			if j+1 > l {
-				l = j + 1
-			}
+	i, ans := -1, 0
+	for j, b := range []byte(s) {
+		if idx := dict[b]; idx >= 0 {
+			i = idx
 		}
-		m[v] = i
+		dict[b] = j
+		size := j - i
+		if size > ans {
+			ans = size
+		}
 	}
-
-	if size-l > max {
-		max = size - l
-	}
-
-	return max
+	return ans
 }
 
 // @lc code=end

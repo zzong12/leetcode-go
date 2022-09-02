@@ -7,8 +7,8 @@
 
 func reverse(x int) int {
 	r := 0
-	for ;x != 0; {
-		r = x % 10 + r * 10
+	for x != 0 {
+		r = x%10 + r*10
 		x /= 10
 	}
 	if r < math.MinInt32 || r > math.MaxInt32 {
@@ -16,5 +16,6 @@ func reverse(x int) int {
 	}
 	return r
 }
+
 // @lc code=end
 

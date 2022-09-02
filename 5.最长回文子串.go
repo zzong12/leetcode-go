@@ -3,7 +3,6 @@
  *
  * [5] 最长回文子串
  */
-
 // @lc code=start
 func longestPalindrome(s string) string {
 	var ans string

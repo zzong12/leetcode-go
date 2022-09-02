@@ -1,11 +1,5 @@
 package main
 
-import "fmt"
-
-func Test_reverseLeftWords() {
-	fmt.Sprintln(reverseLeftWords("abcdefg", 2))
-}
-
 func reverseLeftWords(s string, n int) string {
 	if n == len(s) {
 		return s

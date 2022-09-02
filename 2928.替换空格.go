@@ -7,13 +7,8 @@
 package main
 
 import (
-	"fmt"
 	"unsafe"
 )
-
-func Test_replaceSpace() {
-	fmt.Sprintln(replaceSpace("23313"))
-}
 
 var replaceStr = []byte("%20")
 

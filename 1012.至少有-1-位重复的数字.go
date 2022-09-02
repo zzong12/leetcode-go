@@ -5,8 +5,8 @@
  */
 
 // @lc code=start
-// func numDupDigitsAtMostN(n int) int {
+func numDupDigitsAtMostN(n int) int {
 
-// }
+}
+
 // @lc code=end
-
